@@ -42,6 +42,7 @@ public class Driver {
             } else {
                 browserType = System.getProperty("BROWSER");
             }
+
             System.out.println("Browser: " + browserType);
             // Initialize WebDriver based on browser type
             switch (browserType) {
